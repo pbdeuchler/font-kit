@@ -28,8 +28,8 @@ libc = "0.2"
 log = "0.4.4"
 
 [dependencies.pathfinder_geometry]
-git = "https://github.com/pbdeuchler/pathfinder.git"
-branch = "patched-deps"
+git = "https://github.com/servo/pathfinder.git"
+branch = "main"
 
 [dependencies.pathfinder_simd]
 git = "https://github.com/servo/pathfinder.git"
