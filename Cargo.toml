@@ -26,7 +26,10 @@ float-ord = "0.3"
 lazy_static = "1.1"
 libc = "0.2"
 log = "0.4.4"
-pathfinder_geometry = "0.5"
+
+[dependencies.pathfinder_geometry]
+git = "https://github.com/pbdeuchler/pathfinder.git"
+branch = "patched-deps"
 
 [dependencies.pathfinder_simd]
 git = "https://github.com/servo/pathfinder.git"
