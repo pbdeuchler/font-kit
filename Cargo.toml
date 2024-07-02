@@ -27,7 +27,10 @@ lazy_static = "1.1"
 libc = "0.2"
 log = "0.4.4"
 pathfinder_geometry = "0.5"
-pathfinder_simd = "0.5.3"
+
+[dependencies.pathfinder_simd]
+git = "https://github.com/servo/pathfinder.git"
+branch = "main"
 
 [dependencies.freetype]
 version = "0.7"
